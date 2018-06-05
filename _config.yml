@@ -17,7 +17,7 @@ title: Here comes the title
 email: cool-email@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Test website
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Gizmo-website" # the subpath of your site, e.g. /blog
 url: "https://akagizmo.github.io/Gizmo-website/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
