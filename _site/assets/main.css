@@ -5,26 +5,24 @@ html, body {
 html {
   display: table;
   margin: 0 auto;
-  background-color: gainsboro !important;
+  background-color: #fff !important;
 }
 
 body {
   display: table-cell;
   vertical-align: top;
-  width: 60%;
+  width: 47%;
   top: 0;
 }
 
-/* fix ussiue of dark navbar  */
-.uk-offcanvas-bar {
-  background: #fff !important;
+.main-navbar {
+  background-color: #f6a20e;
 }
 
-/* make footer stick to the bottom */
-.uk-offcanvas-content {
-  flex: 1 0 auto;
+.main-menu {
+  background-color: #000 !important;
 }
 
-footer {
-  flex-shrink: 0;
+.footer {
+  background-color: #222 !important;
 }

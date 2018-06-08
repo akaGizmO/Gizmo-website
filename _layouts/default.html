@@ -1,39 +1,42 @@
 <!DOCTYPE html>
-<html uk-grid lang="{{ page.lang | default: site.lang | default: "ru" }}">
-
-  {% include head.html %}
-
-  <body >
-    {% include header.html %}
-
-      {% include slider.html %}
+<html lang="{{ page.lang | default: site.lang | default: "ru" }}">
+    {% include head.html %}
+    
+    <body>
+        <div class="uk-padding"></div>
         
-      <br>
+        {% include header.html %}
 
-      <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-          <div>
-              <div class="uk-card uk-card-default uk-card-body">Item</div>
-          </div>
-          <div>
-              <div class="uk-card uk-card-default uk-card-body">Item</div>
-          </div>
-          <div>
-              <div class="uk-card uk-card-default uk-card-body">Item</div>
-          </div>
-      </div>
+        {% include slider.html %}
+            
+        <div class="uk-padding"></div>
 
-      <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-          <div>
-              <div class="uk-card uk-card-default uk-card-body">Item</div>
-          </div>
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+        </div>
 
-          <div>
-              <div class="uk-card uk-card-default uk-card-body">Item</div>
-          </div>
-      </div>
+        <div class="uk-text-center" uk-grid>
+            <div class="uk-width-expand@m">
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+                
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+        </div>
 
-      <br>
-      
-    {% include footer.html %}
-  </body>
+        <div class="uk-padding"></div>
+        
+        {% include footer.html %}
+    
+        <div class="uk-padding"></div>
+    </body>
 </html>
